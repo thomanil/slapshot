@@ -10,7 +10,7 @@
 ** Let user choose "announce (to all project users) or not"?
 ** If multiple apk files anywhere in project, let user choose which one
 ** Detect if in android project or not, search up until find git repo, android files or something else?
-
+** Choose between ad-hoc release notes & release based on last git tag annotation
 * Doc/release
 ** Add gradle usage example
 ** Test on mac & linux
