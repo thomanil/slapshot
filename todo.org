@@ -1,0 +1,18 @@
+* Make it work for our internal project, hardcoded
+  Just add the file to my path directly
+
+* Generalize to work for any project
+** Rebase/merge
+
+** Consider porting/implementing rest in Go, avoid ruby/rubygems dependency
+** First run: ask for hockey app credentials, store in dotfile
+** Add multi line release notes (gets until empty/whitespace only line)
+** Let user choose "announce (to all project users) or not"?
+** If multiple apk files anywhere in project, let user choose which one
+** Detect if in android project or not, search up until find git repo, android files or something else?
+
+* Doc/release
+** Add gradle usage example
+** Test on mac & linux
+** Record asciinema examples, embed in readme
+** Blog it
