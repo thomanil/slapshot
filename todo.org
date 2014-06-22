@@ -9,7 +9,9 @@
 ** TODO Param: release notes file path
 ** TODO Param: simplified release message (can only supply one of these)
 ** TODO Convenience: Add final "this is what I'll do, hit enter" msg/confirmation step before publishing to hockey
-** TODO Convenience: Support loading flags from slapshot dotfile instead uf using flags
+** TODO Convenience: Support loading/writing flags from/to slapshot dotfile instead of using flags
+   https://gobyexample.com/writing-files
+   http://golang.org/pkg/encoding/json/
 
 * Doc/release
 ** TODO Add usage examples
