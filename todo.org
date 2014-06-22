@@ -1,16 +1,21 @@
 * Make it work for our internal project, hardcoded
   Just add the file to my path directly
+  Move it to the git rep, add repo to path, figure out relative paths to caller, not called script
 
 * Generalize to work for any project
+** Cmd line options instead of/in addition to wizard workflow?
+   Maybe default to wizard if no params present
+** Add final "this is what I'll do, hit enter" step before publishing to hockey
 ** Rebase/merge
 
 ** Consider porting/implementing rest in Go, avoid ruby/rubygems dependency
-** First run: ask for hockey app credentials, store in dotfile
-** Add multi line release notes (gets until empty/whitespace only line)
+** First run: ask for hockey app token and hockey write token, store both in dotfile
+** Add multi line release notes (gets until empty/whitespace only line). Offer to use last versions release notes if version code is unchanged since last.
 ** Let user choose "announce (to all project users) or not"?
 ** If multiple apk files anywhere in project, let user choose which one
 ** Detect if in android project or not, search up until find git repo, android files or something else?
 ** Choose between ad-hoc release notes & release based on last git tag annotation
+
 * Doc/release
 ** Add gradle usage example
 ** Test on mac & linux

@@ -10,13 +10,15 @@ TODO add asciinema example of usage
 USAGE:
 ======
 
+TODO First create a write-token for the app through https://rink.hockeyapp.net/manage/auth_tokens
+
 From anywhere inside a valid Android project, run it like this:
 
 	slapshot
 
-Note: slapshot will ask you for Hockeyapp user credential on the initial run
-of the tool, and creates a dotfile with your Hockeyapp user
-credentials after your initial successful authentication.
+Note: slapshot will ask you for Hockeyapp write token on the initial
+run of the tool, and creates a dotfile with your token after your
+initial successful run.
 
 
 PREREQUISITES:
