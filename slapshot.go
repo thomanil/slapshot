@@ -41,9 +41,23 @@ Usage: slapshot <RELEASE MESSAGE>
 func uploadIt(apkPath string, message string, notify bool){
 	fmt.Printf("Uploading new release to Hockey...\n")
 
-	//curl_request = "curl -SsF \"status=2\" -F \"notify=1\" -F \"notes=#{msg}\" -F \"notes_type=0\" -F \"ipa=@/Users/thomanil/versioncontrolled/shortcut/foxx-android/foxx/build/outputs/apk/foxx-debug.apk\" -H \"X-HockeyAppToken: cf03334d0eed45eaa05afdfb555995ce\" https://rink.hockeyapp.net/api/2/apps/ba1e678df2b11b9e5050b1abd63a9554/app_versions/upload"
-	//response = `#{curl_request}`
-	// TODO check response, handle errors/anything not 200/ok
+	// Example: http://matt.aimonetti.net/posts/2013/07/01/golang-multipart-file-upload-example/
+
+	// Set header:
+	// X-HockeyAppToken: cf03334d0eed45eaa05afdfb555995ce
+
+	// Set params:
+        // notify=1
+	// notes='watwat'
+	// notes_type=0
+
+	// Set file upload:
+	// /Users/thomanil/versioncontrolled/shortcut/foxx-android/foxx/build/outputs/apk/foxx-debug.apk
+
+	// Url:
+	// https://rink.hockeyapp.net/api/2/apps/ba1e678df2b11b9e5050b1abd63a9554/app_versions/upload
+
+
 
 	fmt.Printf("New release uploaded to Hockey!\n")
 }
