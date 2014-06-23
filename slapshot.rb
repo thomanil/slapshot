@@ -15,7 +15,7 @@ apk_path = "todo"
 app_api_write_token = "todo"
 app_token = "todo"
 
-curl_request = "curl -SsF \"status=2\" -F \"notify=1\" -F \"notes=#{msg}\" -F \"notes_type=0\" -F \"ipa=@./androidapp/build/outputs/apk/androidapp-release.apk\" -H \"X-HockeyAppToken: HOCKEYWRITETOKEN\" https://rink.hockeyapp.net/api/2/apps/APPID/app_versions/upload"
+curl_request = "curl -SsF \"status=2\" -F \"notify=1\" -F \"notes=#{msg}\" -F \"notes_type=0\" -F \"ipa=@/Users/thomanil/versioncontrolled/shortcut/foxx-android/foxx/build/outputs/apk/foxx-debug.apk\" -H \"X-HockeyAppToken: cf03334d0eed45eaa05afdfb555995ce\" https://rink.hockeyapp.net/api/2/apps/ba1e678df2b11b9e5050b1abd63a9554/app_versions/upload"
 
 puts "Uploading new release to Hockey..."
 response = `#{curl_request}`
