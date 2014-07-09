@@ -9,13 +9,6 @@
    http://matt.aimonetti.net/posts/2013/07/01/golang-multipart-file-upload-example/
 ** TODO Parametrize hockey app token, hockey write token
 ** TODO Param: send out hockey mail announcement
-** TODO Param: release notes file path
-** TODO Param: simplified release message (can only supply one of these)
-** TODO Convenience: Add final "this is what I'll do, hit enter" msg/confirmation step before publishing to hockey
-** TODO Convenience: Support loading/writing flags from/to slapshot dotfile instead of using flags
-   https://gobyexample.com/writing-files
-   http://golang.org/pkg/encoding/json/
-
 
 * Doc/release
 ** TODO Add usage examples
